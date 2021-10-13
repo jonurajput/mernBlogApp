@@ -1,0 +1,59 @@
+.img{
+    margin-top: 10vh;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.img>img{
+    height: 100%;
+    width: 100%;
+}
+.icon{
+    position: absolute;
+    bottom: 4vh;
+    left: 30%;
+    right: 30%;
+    font-size: 40px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    animation-name:example;
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example{
+    from{
+bottom: 1.5vh;
+    }
+    to{
+bottom: 5vh;
+    }
+    
+}
+.icon2{
+    font-size: 90px !important;
+}
+.homepage{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home{
+    
+    
+    padding-top: 7vh;
+  
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+   
+}

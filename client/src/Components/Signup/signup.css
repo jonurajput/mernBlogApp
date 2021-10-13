@@ -1,0 +1,82 @@
+.signup{
+    
+    width: 100vw;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    align-items: center;
+}
+.signup>div{
+border: 1px slid black;
+width: 35vw;
+box-shadow: 8px 6px 10px rgba(0,0,0,0.5),
+-8px -6px 10px rgba(0,0,0,0.5);
+color: white;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+
+padding: 8px;
+align-items: center;
+}
+input{
+    width: 70%;
+    margin: 12px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    outline: none;
+    background-color: white;
+}
+.bt{
+padding: 6px;
+background-color:rgba(0, 0, 255, 0.664);
+font-weight: 600;
+font-size: 17px;
+text-transform: uppercase;
+cursor: pointer;
+margin-top: 10px;
+width: 100px;
+transition: all 0.5s;
+border: none;
+border-radius: 10px;
+}
+.bt:hover{
+    box-shadow: 6px 6px 7px grey;
+    color:rgba(0, 0, 255, 0.664) ;
+    background-color: white;
+    border-left: 4px solid rgba(0, 0, 255, 0.664);
+    border-bottom: 2px solid rgba(0, 0, 255, 0.664);
+    font-weight: 700;
+}
+.form >h2{
+    align-self: start;
+    margin-left: 20px;
+}
+.cc{
+    color: black;
+    text-decoration: none;
+}
+.heading{
+    font-size: 15px;
+}
+@media screen and (max-width:833px) {
+    .signup>div{
+        width: 45vw;
+    }
+}
+@media screen and (max-width:604px) {
+    .signup>div{
+        width: 60vw;
+    }
+}
+@media screen and (max-width:464px) {
+    .signup>div{
+        width: 75vw;
+    }
+    .heading{
+      font-size: 13px;
+      cursor: pointer;
+    }
+}

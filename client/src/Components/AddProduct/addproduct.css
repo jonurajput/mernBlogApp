@@ -1,0 +1,51 @@
+.create{
+    margin-top: 11vh;
+    width: 85vw;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow:10px 10px 10px  rgba(128, 128, 128, 0.476) ;
+}
+.img{
+    width: 35%;
+    height:35vh ;
+}
+.create>input{
+    flex: 1;
+}
+
+.create>button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(71, 99, 255);
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+}
+.create>button:hover{
+    background: white;
+    color:rgb(71, 99, 255);
+    border-left: 4px solid rgb(71, 99, 255);
+    border-bottom: 2px solid rgb(71, 99, 255);
+}
+@media screen and (max-width:655px) {
+    .img{
+        width: 50%;
+    }
+}
+@media screen and (max-width:497px) {
+    .img{
+        width: 68%;
+    }
+}
